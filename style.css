@@ -1,0 +1,465 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto',sans-serif;
+}
+body{
+    background-color:#eeee ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow:0px 2px 2px 2px rgb(148, 144, 144) ;
+}
+nav .logo{
+    margin-left: 22px;
+    font-size:24px ;
+}
+ul{
+    margin-right: 45px;
+    margin-top: 7px;
+
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+ul li i{
+    font-size: 22px;
+}
+ul li #Home{
+    color: rgb(5, 167, 167)
+}
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.main .mainText{
+    margin-top: 144px;
+    
+}
+.mainText h1{
+    font-size: 64px;
+
+}
+.mainText .top{
+    color:rgb(4, 138, 138);
+}
+.mainText button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(4, 138, 138);
+    border: none;
+    font-size: 22px;
+    color: white;
+        margin-top: 24px;
+
+}
+.mainText p{
+        margin-top: 24px;
+
+}
+.mainText button:hover{
+    border: 2px solid aqua;
+    background-color: transparent;
+}
+
+.head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head span{
+    color: rgb(2, 164, 164);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+}
+.crd img{
+    width: 70%;
+    padding: 22px;
+    border-radius:31px ;
+}
+.crdText{
+    margin-left: 16px;
+    padding: 8px;
+}
+.crdText button{
+    width: 130px;
+    height: 33px;
+    border: none;
+    background-color: rgb(5, 164, 164);
+    color: white;
+    font-size: 18px;
+    margin-top: 11px;
+}
+.crdText i{
+    color: rgb(221, 165, 11);
+}
+.About{
+    display: none;
+}
+.aboutus{
+    background-color: rgb(1, 1, 40);
+    color: #fff;
+    padding: 56px;
+    font-size: 22px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    background-color: white;
+    padding: 33px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.me img{
+     width: 54%;
+}
+
+.Contact{
+    display: none;
+}
+
+.Contactus{
+   background-color: rgb(1, 1, 40);
+    color: #fff;
+    padding: 56px;
+    font-size: 19px;
+}
+.ContactMe{
+    display: flex;
+    justify-content: center;
+     width: 1000px;
+      margin-top: 5%;
+      background-color: #fff;
+      margin-left: 10%;
+}
+
+.ContactMe img{
+    width: 45%;
+}
+.ContactText{
+    padding: 22px;
+    width: 600px;
+}
+
+.ContactText P{
+    margin-top: 12px;
+}
+.form{
+    text-align: center;
+    margin-top: 5%;
+    padding: 22px;
+}
+
+.form input{
+   width: 300px;
+   height: 27px;
+   margin-top: 11px;
+   padding: 5px;
+}
+.form button{
+    width: 300px;
+    height: 36px;
+    background-color: rgb(2, 56, 56);
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+
+
+
+
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    border-radius: 11px;
+
+}
+.blog:hover{
+        transition: 0.6s ease;
+width: 520px;
+height: 350px;
+}
+.blog img{
+    padding: 22px;
+    width: 85%;
+}
+.blogText{
+    padding: 22px;
+    margin-top: 33px;
+}
+.blogText a{
+    width: 120px;
+    padding: 4px;
+    height: 18px;
+    background-color: rgb(5, 164, 164);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+position: relative;
+top:33px;
+}
+.letter{
+    background-color: rgb(14, 4, 100);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 43px;
+}
+.imp input{
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+.imp button{
+    width: 110px;
+    height: 33px;
+    background-color: rgb(2, 164, 164);
+    color: white;
+    border: none;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footerText{
+    margin-inline:85px;
+}
+.footerText p{
+    margin-top: 11px;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+}
+.cardText{
+    padding: 22px;
+    margin-top: 22px;
+}
+.cardText p{
+    margin-top: 12px;
+}
+.cardText h2{
+    margin-top: 11px;
+}
+.cardText .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(250, 22, 22);
+    color: #fff;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    border: none;
+}
+.cardText .back{
+ width: 140px;
+    height: 40px;
+    background-color:rgb(4, 90, 90);
+    color: #fff;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+    border: none;
+}
+/* Responsive ul and li styles */
+@media (max-width: 900px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    nav ul li {
+        margin-bottom: 10px;
+    }
+    ul li a, ul li i {
+        font-size: 18px;
+        margin-inline: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    ul {
+        width: 100%;
+        padding-left: 0;
+    }
+    nav ul li {
+        margin-bottom: 8px;
+    }
+    ul li a, ul li i {
+        font-size: 16px;
+    }
+}
+/* Responsive styles for all devices */
+@media (max-width: 1200px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav .logo {
+        margin-bottom: 10px;
+    }
+    .mainText h1 {
+        font-size: 48px;
+    }
+    .me, .ContactMe {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .blog {
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+     .main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main .mainText {
+        margin-top: 60px;
+        text-align: center;
+        
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .me, .ContactMe {
+        flex-direction: column;
+        width: 98%;
+        margin-left: 1%;
+        padding: 16px;
+    }
+    .me img, .ContactMe img {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .blog {
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        
+    }
+    .blog p, h1{
+        font-size:13px;
+
+    }
+    .blogText a{
+        width: 120px;
+        margin-bottom: 20px;
+        padding: 4px;
+        height: 18px;
+        background-color: rgb(5, 164, 164);
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        display: inline-block;
+        text-align: center;
+    }
+    .letter {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px;
+        margin-top: 10%;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    nav .logo {
+        margin-left: 0;
+        font-size: 20px;
+    }
+    ul {
+        margin-right: 0;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    ul li a {
+        margin-inline: 10px;
+        font-size: 16px;
+    }
+    .mainText h1 {
+        font-size: 32px;
+    }
+    .head h1 {
+        font-size: 24px;
+        padding: 16px;
+    }
+    .crd {
+        width: 90vw;
+        height: auto;
+        margin-bottom: 16px;
+    }
+    .me, .ContactMe {
+        width: 100%;
+        margin-left: 0;
+        padding: 8px;
+    }
+    .form input, .form button {
+        width: 90vw;
+        font-size: 16px;
+    }
+    .imp input, .imp button {
+        width: 90vw;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .footer .footerText {
+        margin-inline: 0;
+        margin-bottom: 16px;
+    }
+    /* Decrease navbar image size on mobile */
+    
+}

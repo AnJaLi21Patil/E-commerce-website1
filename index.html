@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>shopping</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="Home" onclick="Homes()">Home</a>
+                    <a id="shop" onclick="shop()">Shop</a>
+                    <a id="Blog" onclick="Blog()">Blog</a>
+                    <a id="About" onclick="About()">About</a>
+                    <a id="Contact" onclick="Contact()">Contact</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+        <!-- main page-->
+        <div class="main">
+            <div class="mainText">
+                <h2>shopping</h2>
+                <h1 class="top">Super value Deals</h1>
+                <h1>On All products</h1>
+                <p>Shop Your Fashion Needs,With Latest & Trendy Choices.</p>
+                <button>Explore</button>
+            </div>
+            <img src="a.png">
+        </div>
+        <!--card-->
+        <div class="trend">
+            <div class="head">
+                <h1>shopping <Span>Men's Wear</Span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="pic1.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button onclick="addCart()">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="pic2.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Casual Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                         <button onclick="addCart()">Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="pic3.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cutton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br> 
+                        <button onclick="addCart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--women-->
+        <div class="trend" id="trendSec">
+            <div class="head">
+                <h1>shopping <Span>Women's Wear</Span></h1>
+            </div>
+
+            <div class="card">
+
+                <div class="crd">
+                    <img src="pic4.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Top's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button onclick="addCart()">Add to cart</button>
+
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="pic5.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Dresses</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button onclick="addCart()">Add to cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="pic6.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Dresses</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button onclick="addCart()">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--about us-->
+
+        <div class="About">
+            <div class="aboutus">
+                <h1>#KnowUS</h1>
+                <p>Shop smarter with innovative tools and personalized offers you'll love.</p>
+
+            </div>
+            <div class="me">
+                <img src="lap.png" alt="">
+                <div class="aboutText">
+                    <h1>Who We are?</h1>
+                    <p> We are passionate about bringing you the best shopping experience with a wide selection of
+                        quality products at great prices. Our mission is to make online shopping simple, enjoyable, and
+                        trustworthy for everyone. From fashion to electronics, we carefully curate every item to ensure
+                        you find exactly what you need — all backed by exceptional customer service and fast delivery.
+                        Your go-to destination for trendy, affordable products and a seamless shopping experience. We’re
+                        here to help you find what you love — quickly and easily.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--contact -->
+
+        <div class="Contact">
+            <div class="Contactus">
+                <h1>#Let's Connect</h1>
+                <p>We are a team of passionate developers building awesome platform.</p>
+            </div>
+            <div class="ContactMe">
+
+                <div class="ContactText">
+                    <h1>Visit Our Office or Conatct<br>
+                        Us Today</h1>
+                    <p>Address:Dablin Park,England ,New York. </p>
+                    <p>Conatct:dumiemail@gmail.com</p>
+                    <p>Number:9987654332</p>
+                </div>
+                <img src="map.png" alt="">
+            </div>
+            <div class="form">
+                <h1>Connect With Us .Fill Form</h1>
+                <input type="text " placeholder="Enter Name"><br>
+                <input type="text " placeholder="Enter Surname"><br>
+                <input type="text " placeholder="Enter Mobile Name"><br>
+                <input type="text " placeholder="Enter Email"><br>
+                <button>Submit</button>
+            </div>
+        </div>
+        <!--card-->
+
+        <div class="cart">
+            <img id="newImg" src="pic1.jpg" alt="">
+            <div class="cardText">
+                <h1>Trends Offer : Treading Shop<br>
+                    Now</h1>
+                <h2>Special Price</h2>
+                <h2>$11</h2>
+                <P>lorem ipsum dolor sit amet consectors</P>
+                <P>lorem ipsum dolor sit amet consectors</P>
+                <P>lorem ipsum dolor sit amet consectors</P>
+                <div class="btn">
+                    <button>Buy Now</button>
+                    <button onclick="addCart()">Add to Cart</button>
+                </div>
+                <button class="back" onclick="Back()">Back</button>
+            </div>
+        </div>
+        <!--blog-->
+        <div class="trends">
+            <div class="head">
+                <h1>shopping <Span>Treading Wear</Span></h1>
+            </div>
+            <div class="card">
+                <div class="blog">
+                    <img src="pic7.jpg">
+                    <div class="blogText">
+                        <h2>Treading Girl Cloths</h2>
+                        <p>Shop Now Dresses for Women for your perfect Occasion at W for Woman.</p>
+                        <a
+                            href="https://www.andindia.com/Women/New-Arrivals?srsltid=AfmBOorDXo5QPgvJDQlQT7h2oR3YF7x3tSco2aRW5G7atQVMbWJHv11V">Read
+                            More</a>
+                    </div>
+                </div>
+                <div class="blog">
+                    <img src="pic8.jpg">
+                    <div class="blogText">
+                        <h2>Treading Boys Cloths</h2>
+                        <p>Shop from the latest collection of Apparels for Men Online in India.</p>
+                        <a href="https://www.apetogentleman.com/">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--letter-->
+        <div class="letter">
+            <div class="letterText">
+                <h1>Sign up for NewSLetter</h1>
+                <p>Subscribe to receive the latest news and exclusive offers directly in your inbox.</p>
+
+            </div>
+            <div class="imp">
+                <input type="text" placeholder="Enter Email ">
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footerText">
+            <h2>Trends </h2>
+            <p>service</p>
+            <p>Customer</p>
+            <p>Satisfaction</p>
+        </div>
+        <div class="footerText">
+            <h2>About US</h2>
+            <p>Address: lorem ipsum dolor sit amet
+                <br>consectors ,adipisicing<br>
+                elit,Autem animi
+            </p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Satisfaction</p>
+        </div>
+        <div class="footerText">
+            <h2>Contact</h2>
+            <p>1234567898</p>
+            <p>Customer</p>
+            <p>Comming up...</p>
+            <p>New Arrival</p>
+        </div>
+        <div class="footerText">
+            <h2>Trending</h2>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Shops</p>
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
